@@ -12,8 +12,8 @@ This repository contains a Python script that utilizes the python-nmap library t
 
 # Prerequisites
 Before running the script, ensure you have the following installed:
-    1) Nmap: Required for the script to function.
-    2) Python 3: The script is written in Python 3.
+    1. Nmap: Required for the script to function.
+    2. Python 3: The script is written in Python 3.
 
 # Installation
 Step 1: Install Nmap
