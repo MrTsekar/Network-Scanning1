@@ -24,7 +24,7 @@ This Python script utilizes the `python-nmap` library to perform network scans o
 3. Clone the repository:
 
    git clone https://github.com/MrTsekar/nmap-scanner.git
-   cd nmap-scanne
+   cd nmap-scanner
 
 ## Output
 
