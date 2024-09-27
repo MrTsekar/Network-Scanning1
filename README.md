@@ -1,37 +1,41 @@
-# Network-Scanning1
+# Nmap Scanner
+This Python script utilizes the `python-nmap` library to perform network scans on specified IP addresses or ranges. It identifies open ports and gathers detailed information about the services running on those ports, making it a useful tool for network administrators and security professionals.
 
-# Overview
-This repository contains a Python script that utilizes the python-nmap library to perform network scans using Nmap. The script allows users to scan specified IP addresses or ranges for open ports, services, and potential vulnerabilities.
 
-# Features
- Scans specified ports (default: 22, 80, 443).
- Detects service versions and operating systems.
- Identifies vulnerabilities using Nmap scripts.
- Outputs scan results in a clear and readable format.
-    
+## Features
 
-# Prerequisites
-Before running the script, ensure you have the following installed:
-    1. Nmap: Required for the script to function.
-    2. Python 3: The script is written in Python 3.
+- Scans specified IP addresses or CIDR ranges.
+- Detects open ports (default: 22, 80, 443).
+- Performs service version detection and OS detection.
+- Identifies potential vulnerabilities using Nmap scripts.
+- Outputs detailed information about each host and its open ports.
 
-# Installation
-Step 1: Install Nmap
-  sudo apt install nmap
-Step 2: Install python-nmap Library
-  sudo apt install python3-nmap
-Step 3: Clone the Repository
-  git clone https://github.com/MrTsekar/nmap-scanner.git
-cd nmap-scanner
+## Requirements
 
-# Usage
-python nmap_scanner.py <target>
+- Python 3.x
+- `python-nmap` library
 
-# Output
-The script will output information about each host found during the scan, including:
-    Host IP address and state (up/down).
-    Open ports with their states and services.
-    Any detected vulnerabilities
-    
+## Installation
 
+1. sudo apt install nmap
+   
+2. sudo apt install python3-nmap
+
+3. Clone the repository:
+
+   git clone https://github.com/MrTsekar/nmap-scanner.git
+   cd nmap-scanne
+
+## Output
+
+Host: 192.168.1.1
+State: up
+Port: 22
+State: open
+Service: ssh
+Product: OpenSSH
+Version: 7.9p1 Debian 10+deb10u2
+CPE: cpe:/a:openbsd:openssh:7.9p1
+-------------------
+===========================================
 
