@@ -4,10 +4,10 @@
 This repository contains a Python script that utilizes the python-nmap library to perform network scans using Nmap. The script allows users to scan specified IP addresses or ranges for open ports, services, and potential vulnerabilities.
 
 # Features
-    Scans specified ports (default: 22, 80, 443).
-    Detects service versions and operating systems.
-    Identifies vulnerabilities using Nmap scripts.
-    Outputs scan results in a clear and readable format.
+ Scans specified ports (default: 22, 80, 443).
+ Detects service versions and operating systems.
+ Identifies vulnerabilities using Nmap scripts.
+ Outputs scan results in a clear and readable format.
     
 
 # Prerequisites
