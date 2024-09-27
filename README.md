@@ -28,14 +28,7 @@ This Python script utilizes the `python-nmap` library to perform network scans o
 
 ## Output
 
-Host: 192.168.1.1
-State: up
-Port: 22
-State: open
-Service: ssh
-Product: OpenSSH
-Version: 7.9p1 Debian 10+deb10u2
-CPE: cpe:/a:openbsd:openssh:7.9p1
--------------------
-===========================================
+- Host IP addresses and state(Up/Down)
+- Open ports with their states and services.
+- Any detected vulnerabilities.
 
